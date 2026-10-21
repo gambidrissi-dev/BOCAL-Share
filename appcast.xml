@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Bocal Updates</title>
+    <link>https://github.com/gambidrissi-dev/BOCAL-Share</link>
+    <description>Mises à jour de Bocal</description>
+    <item>
+      <title>Version 1.0.1</title>
+      <description><![CDATA[
+<h3>Publication en Developer ID, notarisée ; selftest sur le binaire construit</h3>
+<p>Le certificat de l'atelier n'est plus dans le coffre : signature Developer ID, runtime renforcé et horodatage, puis notarisation et ticket agrafé avant le zip. Même clé Sparkle : les mises à jour continuent. Le selftest passait par « swift run », qui ne trouve pas Sparkle.framework (pas de rpath).</p>
+      ]]></description>
+      <pubDate>Wed, 21 Oct 2026 12:38:51 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/BOCAL-Share/releases/download/v1.0.1/Bocal-1.0.1.zip"
+                 sparkle:edSignature="vg0ovpwriaxfks/OFAknyaNao+kLpkZ6ZQpfoIJhDT5oLSY0qIBqL4ELeOWyNMxFnQTtnEPt+wNcIIjoSiteCA=="
+                 length="1448908"
+                 type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
